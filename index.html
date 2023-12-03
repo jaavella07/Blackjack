@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="assets/css/styles.css" <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header__title">
+        BlackJack
+    </header>
+    <section class="section__button">
+        <div class="buttons__button">
+            <button id="btnNuevo" class="button__game">Nuevo Juego</button>
+            <button id="btnPedir" class="button__game">Pedir Carta</button>
+            <button id="btnDetener" class="button__game">Detener</button>
+        </div>
+    </section>
+
+    <div class="game__one">
+        <h1 class="game__title">Jugador 1 -
+            <small class="game__subtitle"></small>
+            <div id="jugador-cartas" class="game__carts">
+                <!--<img src="assets/cartas/10D.png" class="carts__img">-->
+            </div>
+        </h1>
+    </div>
+    <hr>
+    <div class="game__two">
+        <h1 class="game__title">Maquina
+            <small class="game__subtitle">0</small>
+            <div class="game__carts">
+                <img src="assets/cartas/10D.png" class="carts__img">
+                <img src="assets/cartas/10D.png" class="carts__img">
+                <img src="assets/cartas/10D.png" class="carts__img">
+                <img src="assets/cartas/10D.png" class="carts__img">
+                <img src="assets/cartas/10D.png" class="carts__img">
+            </div>
+        </h1>
+    </div>
+
+    <script src="assets/js/juego.js"></script>
+</body>
+
+</html>
